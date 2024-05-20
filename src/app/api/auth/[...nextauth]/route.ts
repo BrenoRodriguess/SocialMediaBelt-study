@@ -1,4 +1,4 @@
-// configuração do provider utilizado para login (Github), e validação de account para a criação de um novo tenanat se for o primeiro acesso,
+// configuração do provider utilizado para login (Github), e validação de account para a criação de um novo tenant se for o primeiro acesso,
 // criando relacionamento de usuarios e tenants, e criação de seção (session)
 import NextAuth, {AuthOptions} from "next-auth"
 import GithubProvider from "next-auth/providers/github";
